@@ -6,10 +6,6 @@ const back = document.getElementById('back')
 const num = document.getElementById('num')
 let count = 0
 
-setTimeout(() => {
-    $("document").ready($(".loader-wrapper").fadeOut("slow"));
-}, 1000);
-
 next.addEventListener('click',()=>{
     count++
     load()
